@@ -1,0 +1,37 @@
+Se tiene una empresa de Cambio de Monedas que maneja en tipo de cambio de moneda:
+- Boliviano / Dolar / Euro
+Existen diferentes lugares donde yo puedo cambiar mi moneda (Banco / Casa de Cambio/
+Libre Cambistas)
+
+Todos obtienen la información del tipo de cambio de un lugar en especifico
+
+Se solicita el tipo de cambio de la empresa
+
+B = 70Bs = 10$
+CC = 70Bs = 10$
+LC = 70Bs = 10$
+
+B = 70Bs = 10$
+CC = 10$ = 70Bs
+LC = 1E = 9 Bs
+El tipo de cambio lo va a dar el singleton va a ser la clase que va a dar el tipo de cambio
+hay 3 diferentes clases que preguntan, es como el banco
+
+- (Singleton) Crear un repositorio en Github/Bitbucket/Gitlab y
+poner la informacion del Link en la plataforma Virtual
+el ultimo commit deberia sera antes de la clase siguiente
+
+* Se tiene una Empresa de Cambio de Monedas que maneja en tipo de cambio de monedas
+
+- Boliviano / Dolar / Euro
+
+* existen diferentes lugares donde yo puedo cambiar mi moneda
+(Banco / Casas De Cambios / LibreCambistas)
+
+B <--- 70bs ----> 10$
+CC <--- 70bs ----> 10$
+LC <--- 70bs ----> 10$
+
+B <--- 70bs ----> 10$
+CC <--- 10$ ----> 70bs
+LC <--- 1E ----> 9bs
