@@ -1,6 +1,5 @@
 package singleton.practice.ejerciciobanco;
 
-import singleton.example.banco.ManagerSaldo;
 
 public class EmpresaDeCasaDeCambioDeMoneda {
     private static EmpresaDeCasaDeCambioDeMoneda empresaDeCasaDeCambioDeMoneda;
