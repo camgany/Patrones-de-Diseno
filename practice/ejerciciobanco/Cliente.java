@@ -1,8 +1,5 @@
 package singleton.practice.ejerciciobanco;
 
-import singleton.example.banco.BancaMovil;
-import singleton.example.banco.Person;
-
 public class Cliente {
     public static void main(String [] args){
         Thread hilo1 = new Thread(new Runnable() {
